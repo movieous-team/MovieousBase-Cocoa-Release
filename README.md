@@ -1,5 +1,5 @@
 # MovieousBase-Cocoa
 
-`MovieousBase` is a base library provided by [Movieous](https://movieous.cn/) which is a dependency of Movieous SDKs
+`MovieousBase` 是 [Movieous](https://movieous.cn/) 提供的公共基础库，该库被 Movieous 其他组件依赖。
 
-*Read this in other languages: [English](README.md), [简体中文](README.zh-cn.md).*
+*其他语言版本: [English](README.en-us.md), [简体中文](README.md).*
