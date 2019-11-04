@@ -1,0 +1,6 @@
+framework module MovieousPlayBase {
+  umbrella header "MovieousPlayBase.h"
+
+  export *
+  module * { export * }
+}
