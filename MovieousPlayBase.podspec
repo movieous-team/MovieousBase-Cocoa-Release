@@ -8,4 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/movieous-team/MovieousBase-Cocoa-Release.git', :tag => "v#{spec.version}" }
   spec.static_framework = true
   spec.vendored_frameworks = 'MovieousPlayBase.framework'
+  spec.dependency 'MovieousBase', '2.0.0'
 end
