@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.name         = 'MovieousBase-CN'
-  spec.version      = `sh utils.sh get-version`
+  spec.version      = `sh utils.sh get-version-base`
   spec.homepage     = 'https://movieous-team.coding.net/p/MovieousBase-Cocoa-Release/d/MovieousBase-Cocoa-Release/git'
   spec.authors      = { 'movieous' => 'cloudop@movieous.video' }
   spec.summary      = 'Movieous base library for iOS.'
