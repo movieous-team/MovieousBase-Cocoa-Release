@@ -41,7 +41,6 @@ case "$COMMAND" in
         ;;
     *)
         echo "Unknown command $COMMAND"
-        usage
         exit 1
         ;;
 esac
