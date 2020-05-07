@@ -1,5 +1,5 @@
 //
-//  MovieousImageStickerCaptureEffect.h
+//  MovieousStickerCaptureEffect.h
 //  MovieousCaptureBase
 //
 //  Created by Chris Wang on 2019/4/4.
@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 图片贴纸特效。
  */
-@interface MovieousImageStickerCaptureEffect : MovieousCaptureEffect
+@interface MovieousStickerCaptureEffect : MovieousCaptureEffect
 
 /**
  * 用作图片贴纸的图片
@@ -61,13 +61,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) float alpha;
 
 /**
- * 用另一个 MovieousImageStickerCaptureEffect 对象初始化此 MovieousImageStickerCaptureEffect
+ * 用另一个 MovieousStickerCaptureEffect 对象初始化此 MovieousStickerCaptureEffect
  *
- * @param imageStickerCaptureEffect 用于初始化的另一个 MovieousImageStickerCaptureEffect 对象。
+ * @param imageStickerCaptureEffect 用于初始化的另一个 MovieousStickerCaptureEffect 对象。
  *
- * @return 初始化完成的 MovieousImageStickerCaptureEffect 对象。
+ * @return 初始化完成的 MovieousStickerCaptureEffect 对象。
  */
-- (instancetype)initWithImageStickerCaptureEffect:(MovieousImageStickerCaptureEffect *)imageStickerCaptureEffect;
+- (instancetype)initWithImageStickerCaptureEffect:(MovieousStickerCaptureEffect *)imageStickerCaptureEffect;
 
 @end
 
